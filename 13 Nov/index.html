@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="demo"></h1>
+    <button id="btn">Click</button>
+    <script src="./script.js"></script>
+    <script type="module">
+      // named import
+      import { name, age, course } from "./named.js";
+      //   document.getElementById("demo").innerHTML = name + " " + age + "<br>";
+      //   document.getElementById("demo").innerHTML += course();
+      //   default import
+      import display from "./default.js";
+      document.getElementById("demo").innerHTML = display();
+    </script>
+  </body>
+</html>
