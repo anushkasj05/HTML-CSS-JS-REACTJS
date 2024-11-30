@@ -1,0 +1,7 @@
+{
+  "Students": [
+    { "name": "Anushka", "age": 19, "city": "Bhopal" },
+    { "name": "Divyansh", "age": 21, "city": "Lalitpur" },
+    { "name": "Argha", "age": 19, "city": "Bhopal" }
+  ]
+}
