@@ -1,0 +1,23 @@
+.Parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px;
+}
+.Child {
+  background-color: rgb(202, 130, 238);
+  justify-content: center;
+  padding: 60px;
+  margin: 50px;
+  display: grid;
+  justify-items: center;
+}
+.Child h1 {
+  font-size: 40px;
+}
+.Child button {
+  padding: 10px;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
